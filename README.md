@@ -70,11 +70,14 @@ AI-Study-Companion/
 cd backend
 install the dependeies in requirements.txt
 uvicorn main:app --reload
+```
 
 ###  FrontEnd Setup
+```bash
 cd frontend
 flutter pub get
 flutter run
+```
 
 ## How It Works
 - User inputs text or uploads a PDF
