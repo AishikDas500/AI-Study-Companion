@@ -68,7 +68,7 @@ AI-Study-Companion/
 
 ```bash
 cd backend
-install the dependeies in requirements.txt
+pip install -r requirements.txt
 uvicorn main:app --reload
 ```
 
