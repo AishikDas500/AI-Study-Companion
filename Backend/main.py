@@ -36,7 +36,7 @@ def clean_text(text):
 def summarize_text(text):
     print("RAW TEXT:", text)
 
-    # ✅ USE CLEAN FUNCTION
+    # USE CLEAN FUNCTION
     text = clean_text(text)
 
     print("CLEAN TEXT:", text)
