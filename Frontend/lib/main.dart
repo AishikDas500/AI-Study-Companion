@@ -61,10 +61,10 @@ class _HomePageState extends State<HomePage> {
           result = (data["summary"] as List).join("\n");
         });
       } else {
-        setState(() => result = "❌ Error: Server returned ${response.statusCode}");
+        setState(() => result = " Error: Server returned ${response.statusCode}");
       }
     } catch (e) {
-      setState(() => result = "❌ Connection Error: Ensure FastAPI is running!");
+      setState(() => result = " Connection Error: Ensure FastAPI is running!");
     } finally {
       setState(() => isLoading = false);
     }
