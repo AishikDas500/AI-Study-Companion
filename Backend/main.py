@@ -67,7 +67,7 @@ def summarize(request: TextRequest):
 
 # -------- PDF UPLOAD API --------
 @app.post("/upload-pdf")
-async def upload_pdf(file: UploadFile = File(...)):
+def upload_pdf(file: UploadFile = File(...)):
     pdf_reader = PyPDF2.PdfReader(file.file)
 
     text = ""
